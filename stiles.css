@@ -1,0 +1,251 @@
+:root {
+    --accent: #998431;
+    --black-text: #282828;
+}
+body {    
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 14px;
+    line-height: 1.5;
+      
+    color: var(--black-text);
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;   
+}
+
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/bgc.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* header */
+.header {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.adress, .number {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color:  #fff;
+}
+.number {
+    margin-top: 15px;
+}
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 25%;
+    justify-content: space-between;
+    border-left: none;
+}
+.nav-link:last-child {
+    border-right: none;
+}
+.nav-text {
+    padding: 11px auto 15px;
+    text-align: center;
+}
+
+/* Intro */
+.intro {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    
+
+}
+.intro-btn {
+    width: 100%;
+    display: inline-block;
+    margin: 50% auto;    
+}
+.btn {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    background-color: #998431;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    letter-spacing: 0.05em;
+    
+    cursor: pointer;
+    
+}
+
+.previev {
+    display: flex;
+    background-color: #282828;
+    color: #fff;
+    flex-direction: column;
+}
+.block-previev {
+    display: flex;
+    border:3px solid #ffffff;
+    margin: 100px 10px;
+    flex-direction: column;
+    
+}
+.previev-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 150%;
+
+    margin-top: 60px;
+    text-align: center;
+}
+.previev-header::after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 160px;
+    height: 1px;
+
+    margin: 40px auto 0;
+}
+.previev-text {
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 730px;
+    margin: 40px auto 0;
+    text-align: center;
+}
+.previev-img {
+    display: block;
+    margin: 50px auto 60px;
+    justify-content: center;
+}
+.colect {
+    background-color: #e6e3c4;
+    display: flex;
+    flex-direction: column;
+    
+}
+.colect-item {
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+    margin: 80px 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.colect-container {
+    width: 50%;
+}
+.colect-inform {
+    max-width: 445px;    
+}
+.colect-h3 {
+    font-size: 16px;
+    line-height: 150%;
+    margin: 60px 0 30px;
+}
+.colect-h1 {
+    font-size: 36px;
+    line-height: 150%;
+}
+.colect-h1::after {
+    content: "";
+    display: block;
+    background-color: #282828;
+    width: 160px;
+    height: 1px;
+
+    margin: 30px 0;
+}
+.colect-text {
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    margin-bottom: 30px;
+}
+
+
+/* Table */
+.table-tr {
+    border-spacing: 10px;
+}
+.table-year {
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+    padding: 27px 24px;
+    border-right: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+
+    margin: 0 auto;
+}
+
+.table-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+    font-weight: 700;
+
+    padding: 10px 28px;
+}
+.table-text {
+    border-bottom: 1px solid #282828;
+    padding: 0px 28px 15px;
+}
+.news-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+    background-color: #998431;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    letter-spacing: 0.05em;
+    
+    cursor: pointer;
+    margin: 0 15px 60px;
+}
+.colect-photo {    
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    justify-content: space-between;  
+    display: none;
+}
+
+
+/* Tasting */
